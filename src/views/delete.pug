@@ -1,0 +1,8 @@
+extends base
+
+block content 
+    form(method="POST",style={padding:"40px"})
+        small 삭제하겠습니까?
+        br
+        input(name="isDelete",type="submit",value="yes",style={float:"left"})
+        input(name="isDelete",type="submit",value="no",style={float:"left"})
